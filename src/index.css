@@ -1,0 +1,93 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/IRANSansWeb_Bold.eot");
+  src: url("fonts/IRANSansWeb_Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/IRANSansWeb_Bold.woff2") format("woff2"),
+    url("fonts/IRANSansWeb_Bold.woff") format("woff"),
+    url("fonts/IRANSansWeb_Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("fonts/IRANSansWeb_Medium.eot");
+  src: url("fonts/IRANSansWeb_Medium.eot?#iefix") format("embedded-opentype"),
+    url("fonts/IRANSansWeb_Medium.woff2") format("woff2"),
+    url("fonts/IRANSansWeb_Medium.woff") format("woff"),
+    url("fonts/IRANSansWeb_Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/IRANSansWeb_Light.eot");
+  src: url("fonts/IRANSansWeb_Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/IRANSansWeb_Light.woff2") format("woff2"),
+    url("fonts/IRANSansWeb_Light.woff") format("woff"),
+    url("fonts/IRANSansWeb_Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url("fonts/IRANSansWeb_UltraLight.eot");
+  src: url("fonts/IRANSansWeb_UltraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/IRANSansWeb_UltraLight.woff2") format("woff2"),
+    url("fonts/IRANSansWeb_UltraLight.woff") format("woff"),
+    url("fonts/IRANSansWeb_UltraLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/IRANSansWeb.eot");
+  src: url("fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+    url("fonts/IRANSansWeb.woff2") format("woff2"),
+    url("fonts/IRANSansWeb.woff") format("woff"),
+    url("fonts/IRANSansWeb.ttf") format("truetype");
+}
+body,
+html {
+  background-color: #f9f9f9;
+  font-family: IRANSans, tahoma, Roboto, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  direction: rtl;
+  text-align: right;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+  font-family: IRANSans, tahoma, Roboto, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+main {
+  min-height: 450px;
+}
+.btn-flightio,
+.btn-flightio:hover,
+.btn-flightio:focus {
+  background: #ff7200;
+  background: -moz-linear-gradient(left, #ff7200 0%, #ffa800 100%);
+  background: -webkit-linear-gradient(left, #ff7200 0%, #ffa800 100%);
+  background: linear-gradient(to right, #ff7200 0%, #ffa800 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7200', endColorstr='#ffa800',GradientType=1 );
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #fff;
+}

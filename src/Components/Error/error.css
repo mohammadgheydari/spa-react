@@ -1,0 +1,51 @@
+.error-page {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+.error-page .text {
+  font-size: 200px;
+  color: #444;
+}
+.error-page img {
+  width: 160px;
+  margin-left: 30px;
+  margin-right: 30px;
+  animation: rotation 6s infinite linear;
+  -webkit-animation: rotation 6s infinite linear;
+}
+
+.error-page h1 {
+  color: #ff7700;
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 425px) {
+  .error-page .text {
+    font-size: 120px;
+  }
+  .error-page img {
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-359deg);
+  }
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-359deg);
+  }
+}
